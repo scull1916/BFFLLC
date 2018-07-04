@@ -1,0 +1,8 @@
+#staging {
+    font-family: sans-serif;
+    display: grid;
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
