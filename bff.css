@@ -1,3 +1,14 @@
+header {
+    top: 0px;
+    min-height: 30px;
+    position: relative;
+}
+
+footer {
+    bottom: 0px;
+    min-height: 30px;
+    position: relative;
+}
 #staging {
     font-family: sans-serif;
     display: grid;
@@ -5,4 +16,15 @@
     color: black;
     font-weight: bold;
     text-align: center;
+    position: absolute;
+    width: 100%;
+    padding: 1vh;
+}
+
+img {
+    width: 25vh;
+    margin-top: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
