@@ -9,6 +9,7 @@ footer {
     min-height: 30px;
     position: relative, bottom;
 }
+
 #staging {
     font-family: sans-serif;
     display: grid;
@@ -95,6 +96,16 @@ ul {
   
   .days .empty {
     color: #ffffff;
+  }
+
+  /* Class description cards */
+  .card-img-top {
+    width: 20vw;
+
+  }
+
+  .instructor {
+    font-weight: bold;
   }
   
   
