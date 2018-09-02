@@ -101,6 +101,7 @@ ul {
   /* Class description cards */
   .card-img-top {
     width: 20vw;
+    height: 25vh;
 
   }
 
@@ -108,4 +109,9 @@ ul {
     font-weight: bold;
   }
   
+  .card {
+    display: inline-block;
+    padding: 2em;
+    vertical-align: top;
+  }
   
