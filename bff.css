@@ -125,7 +125,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
 }
 
 .am .pm {
@@ -134,6 +134,9 @@ body {
 }
 
 /* navigation */
+.navbar {
+  justify-content: center;
+}
 .nav {
   display: flex;
   flex-direction: row;
