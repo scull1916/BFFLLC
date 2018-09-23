@@ -137,12 +137,14 @@ body {
 .navbar {
   justify-content: center;
 }
+
 .nav {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   padding: 2rem 2rem 2rem 0;
-  justify-content: center;
+  /* justify-content: center; */
 }
+
 
 
