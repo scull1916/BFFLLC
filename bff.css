@@ -41,7 +41,7 @@ body {
 /* Month header */
 .month {
   padding: 30px 25px;
-  width: 100%;
+  width: auto;
   background: #c01f25;
   text-align: center;
   color: #fff007;
@@ -61,8 +61,8 @@ body {
 /* Weekdays header and calendar */
 
 .week {
-  padding: 0px 25px;
-  width: 100%;
+  padding: 0;
+  width: auto;
 }
 .weekdays {
   margin: 0;
