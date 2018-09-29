@@ -22,7 +22,7 @@ footer {
     
 }
 
-img {
+#bfflogo {
     width: 20vw;
     margin-top: 2%;
     display: block;
@@ -157,6 +157,10 @@ body {
 .bio {
   /* height: 10vh;
   padding: 2em; */
+}
+
+#mrsb, #instwo {
+  height: 10%;
 }
 
 
