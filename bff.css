@@ -160,12 +160,18 @@ body {
 }
 
 #about, #top {
-  background-color: darkgray;
+  background-color: rgb(200, 204, 209);
 }
 
 #announce {
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/ff/Rock_climbers_yosemite.JPG);
-  width: auto;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/ff/Rock_climbers_yosemite.JPG');
+  background-blend-mode: luminosity;
+  background-color: #160633;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
 
 .bio {
