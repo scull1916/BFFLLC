@@ -12,7 +12,7 @@
 }
 /* work on setting logo & nav postion so that it is fixed at the top of each page */
 #bfflogo, #staging {
-  position: fixed;
+  flex: 0 1 auto;
   
 }
 
@@ -20,7 +20,6 @@
     width: 20vw;
     margin-top: 3%;
     display: flex;
-    /* position: fixed; */
     margin-left: auto;
     margin-right: auto;
     align-content: center;
@@ -54,10 +53,6 @@ footer, #staging, #contact, #bfflogo {
 body {
   font-family: Arial, sans-serif;
   background-color: cornflowerblue;
-  background-image: url(assets/alora-griffiths-750409-unsplash.jpg);
-  /* background-position: center; */
-  background-repeat: no-repeat;
-  background-size: auto;
   margin: 0;
 }
 
@@ -67,7 +62,7 @@ body {
   color: rgb(77, 19, 17);
   font-size: larger;
 }
-  
+
 /* Month header */
 .month {
   padding: 30px 25px;
@@ -98,7 +93,7 @@ body {
   margin: 0;
   padding: 10px 0px;
   background-color: #f2f2f2;
-
+  
 }
 
 .weekdays li {
@@ -106,7 +101,7 @@ body {
   width: 13%;
   color: #333333;
   text-align: center;
-
+  
 }
 
 .days {
@@ -138,7 +133,7 @@ body {
 .card-img-top {
   width: 15rem;
   height: 10rem;
-
+  
 }
 
 .instructor {
@@ -149,13 +144,15 @@ body {
   display: inline-block;
   padding: 2em;
   vertical-align: top;
+  background-color: white;
+  
 }
 
 .container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /* justify-content: flex-end; */
+  
 }
 
 .am .pm {
@@ -166,19 +163,25 @@ body {
 /* navigation */
 .navbar {
   justify-content: flex-end;
-  background-color: darkgoldenrod;
-  font-size: 1.5em;
+  background-color: #cc4a14;
+  font-size: 1.25em;
   font-weight: bold;
   /* padding-top: 0;
   padding-bottom: 0; */
   margin-top: 0;
-  margin-bottom: 5%;
+  margin-bottom: 0;
 }
 
 .nav {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   padding: 1rem;
+  
+}
+
+.navlink {
+  color: #ffc9b2;
+  
 }
 
 /* main page styling */
@@ -189,19 +192,19 @@ body {
   margin: 0;
 }
 
-#about, #top {
-  background-color: rgb(200, 204, 209);
+#about, #top, #announce {
+  background-color: white;
 }
 
 #announce {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/ff/Rock_climbers_yosemite.JPG');
+  /* background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/ff/Rock_climbers_yosemite.JPG');
   background-blend-mode: luminosity;
-  background-color: #160633;
+  background-color: #160633; */
   height: 500px;
-  background-position: center;
+  /* background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
+  background-size: cover; */
+  
 }
 
 .bio {
@@ -229,22 +232,35 @@ body {
   background-color: #160633;
   color: white;
   font-weight: bold;
-  height: 25vh;
+  height: 75vh;
   width: 100%;
   /* align-items: center; */
   
 }
 
-#subOne, #subThree {
-  background-color: #333333;
-  color: #160633;
-  font-weight: bold;
+#subOne {
+  background-image: url(assets/alora-griffiths-750409-unsplash.jpg);
+
 }
 
 #subTwo {
-  padding-top: 5%;
-  padding-bottom: 5%;
-  /* align-items: center; */
-  margin-top: 15%;
-  margin-bottom: 15%;
+  background-image: url(assets/yoga-mat.jpg);
+
+}
+
+#subThree {
+  background-image: url(assets/exercise-class.jpg);
+}
+
+#subFour {
+  background-image: url(assets/mountain-sunrise.jpg);
+}
+
+#subOne, #subTwo, #subThree, #subFour {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #333333;
+  color: #160633;
+  font-weight: bold;
 }
