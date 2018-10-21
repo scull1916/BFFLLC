@@ -244,16 +244,16 @@ body {
 }
 
 #subTwo {
-  background-image: url(assets/yoga-mat_sm.png);
+  background-image: url(assets/yoga-mat_sm.jpg);
 
 }
 
 #subThree {
-  background-image: url(assets/exercise-class_sm.png);
+  background-image: url(assets/exercise-class_sm.jpg);
 }
 
 #subFour {
-  background-image: url(assets/mountain-sunrise_sm.png);
+  background-image: url(assets/mountain-sunrise_sm.jpg);
 }
 
 #subOne, #subTwo, #subThree, #subFour {
