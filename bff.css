@@ -1,13 +1,31 @@
-header {
-    top: 0px;
-    min-height: 30px;
-    position: relative, top;
+
+
+/* Formatting for masthead sitting behind logo */
+.masthead {
+  width: auto;
+  height: 30vh;
+  background-color: white;
+  display: flex;
+  flex-flow: nowrap;
+  justify-content: center;
+  margin-left: 0;
+}
+/* work on setting logo & nav postion so that it is fixed at the top of each page */
+#bfflogo {
+    width: 20vw;
+    margin-top: 3%;
+    display: flex;
+    /* position: fixed; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    align-content: center;
+    
 }
 
 footer, #staging, #contact {
-    bottom: 0px;
+    top: 0px;
     min-height: 30px;
-    position: relative, bottom;
+    position: relative, top;
 }
 
 #staging {
@@ -17,7 +35,7 @@ footer, #staging, #contact {
     color: black;
     font-weight: bold;
     text-align: center;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     
 }
@@ -27,21 +45,15 @@ footer, #staging, #contact {
   text-align: center;
 }
 
-/* work on setting logo & nav postion so that it is fixed at the top of each page */
-#bfflogo {
-    width: 20vw;
-    margin-top: 2%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-ul {
-    list-style-type: none;
-  }
   
 body {
   font-family: Arial, sans-serif;
+  background-color: cornflowerblue;
+  background-image: url(assets/alora-griffiths-750409-unsplash.jpg);
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin: 0;
 }
 
 .intro {
@@ -148,13 +160,21 @@ body {
 
 /* navigation */
 .navbar {
-  justify-content: center;
+  justify-content: flex-end;
+  align-content: space-around;
+  background-color: darkgoldenrod;
+  font-size: 1.5em;
+  font-weight: bold;
+  /* padding-top: 0;
+  padding-bottom: 0; */
+  margin-top: 0;
+  margin-bottom: 5%;
 }
 
 .nav {
   display: flex;
   flex-flow: row nowrap;
-  padding: 2em 2em 2em 0;
+  padding: 1rem;
   width: 10vw;
 }
 
@@ -191,3 +211,37 @@ body {
 }
 
 
+/* test divs */
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  text-align: center;
+  
+}
+
+.sub-container {
+  flex: 0 1 auto;
+  background-color: #160633;
+  color: white;
+  font-weight: bold;
+  height: 25vh;
+  width: 100%;
+  /* align-items: center; */
+  
+}
+
+#subOne, #subThree {
+  background-color: #333333;
+  color: #160633;
+  font-weight: bold;
+}
+
+#subTwo {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  /* align-items: center; */
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
