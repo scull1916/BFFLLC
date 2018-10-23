@@ -52,7 +52,8 @@ footer, #staging, #contact, #bfflogo {
   
 body {
   font-family: Arial, sans-serif;
-  background-color: cornflowerblue;
+  /* background-color: cornflowerblue; */
+  
   margin: 0;
 }
 
@@ -65,7 +66,8 @@ body {
 
 /* Month header */
 .month {
-  padding: 30px 25px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   width: auto;
   background: #c01f25;
   text-align: center;
