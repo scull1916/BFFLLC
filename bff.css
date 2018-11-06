@@ -90,6 +90,7 @@ body {
   font-size: 20;
   text-transform: uppercase;
   letter-spacing: 1px;
+  list-style-type: none;
 }
 /* Weekdays header and calendar */
 
